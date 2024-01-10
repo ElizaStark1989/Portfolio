@@ -4356,6 +4356,19 @@ textarea.form-control-lg {
   --bs-accordion-active-bg: #e8f8f5;
 }
 
+#submitButton.btn-primary {
+  background-color: blue; 
+  color: #fff;
+  border-color:blue;
+}
+
+
+.navbar-dark .navbar-nav .nav-item.active,
+.navbar-dark .navbar-nav .nav-item.active:hover {
+  background-color: #007bff !important; 
+}
+
+
 .accordion-button {
   position: relative;
   display: flex;
@@ -10896,7 +10909,7 @@ html {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 800;
+  font-weight: 700;
 }
 #mainNav .navbar-brand {
   color: black;
@@ -10908,13 +10921,13 @@ html {
   color: black;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #dd1919;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #dd1919;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #dd1919;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10940,7 +10953,7 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #e94022;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -10965,7 +10978,7 @@ html {
 }
 .form-floating label {
   font-size: 1.5rem;
-  color: yellow;
+  color: blue;
 }
 
 .masthead {
@@ -11041,6 +11054,15 @@ html {
   padding-bottom: 5rem;
   background-color: #151564;
   color: var(--bs-yellow);
+}
+.portfolio-item{
+  width: 100%;
+  height: 100%;
+}
+
+.square-image{
+  width: 300px;
+  height: 300px;
 }
 
 .copyright {
